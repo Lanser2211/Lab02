@@ -1,0 +1,61 @@
+body {
+    background-color: #040e66e3;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: #0091ca;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #000744; 
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid #030699; 
+}
+
+.foto img {
+    max-width: 200px;
+    border: 2px solid #0084ff;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.informacion {
+    text-align: left;
+    border: 2px solid #00ee8b; 
+    padding: 10px; 
+}
+
+.experiencia, .intereses {
+    background-color: #7dc4d6;
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid #000000; 
+}
+
+.experiencia h2, .intereses h2 {
+    color: #000dc4;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid #0804ff; 
+}
